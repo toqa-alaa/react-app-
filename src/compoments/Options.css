@@ -1,0 +1,209 @@
+.options{
+display: flex;
+flex-direction: column;
+padding: 20px;
+margin: 20px;
+gap: 20px;
+text-align: center;
+color: rgba(241, 160, 18, 1);
+font-size: 30px;
+justify-content: center;
+align-items: center;
+
+}
+.options .one{
+  clip-path: polygon(105% -4%, 103% 66%, 81% 103%, 2% 108%, -23% 65%, 16% -1%);    
+ padding: 1px 1px;
+ background-color:rgba(241, 160, 18, 1);
+height: fit-content;
+
+
+ /* height: 70px;*/
+}
+.options .two{
+  clip-path: polygon(105% -4%, 103% 66%, 81% 103%, 2% 108%, -23% 65%, 16% -1%);  
+ background-color:#04050b;
+ padding: 5px;
+ /*width: 295px;
+ height: 65px;*/
+}
+.options .three{
+  padding: 1px ;
+ clip-path: polygon(105% -4%, 103% 66%, 81% 103%, 2% 108%, -23% 65%, 16% -1%);  
+  background-color:rgba(241, 160, 18, 1);
+
+ /*width: 290px;
+ height: 60px;*/
+}
+.options .real{
+  clip-path: polygon(105% -4%, 103% 66%, 81% 103%, 2% 108%, -23% 65%, 16% -1%);    
+ padding: 5px 45px;
+ width: 235px;
+ /* width: 285px;
+ height: 55px;*/
+ background-color:#04050b;
+ font-family: var(--quantico-font);
+ font-size: 30px;
+ line-height: 44px;
+ letter-spacing: 2px;
+}
+.options .real:hover{
+color: var(--white-color);
+}
+
+.options div{
+  clip-path: polygon(105% -4%, 103% 66%, 81% 103%, 2% 108%, -23% 65%, 16% -1%); 
+     padding: 0px 0px;
+    overflow: hidden;
+    
+
+  
+
+}
+.holder-all{
+  
+  border: 1px solid rgba(241, 160, 18, 1);
+  position: relative;
+  z-index: 10000;
+  padding: 76px 0;
+  margin: 0 20px;
+  background-color: #fdfdff09;
+}
+.rectangls {
+  position: relative;
+}
+.rectangls-top .l-top{
+  bottom: 94%;
+  left: 1%;
+  position: absolute;
+}
+.rectangls-top .r-top{
+  top: 3%;
+  left: 97%;
+  position: absolute;
+}
+/* .rectangls-bottom
+{
+  position: absolute;} */
+
+.rectangles-bottom .r-bottom{
+  position: absolute;
+    bottom: 4%;
+    left: 96%;
+}
+
+.rectangles-bottom .l-bottom{
+  position: absolute;
+  bottom: 4%;
+  left: 1%;
+}
+.console img {
+    width: 400px;
+    height: 400px;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+    justify-content: space-around;
+}
+.top .line-market{
+  border: 2px solid rgba(255, 219, 90, 0.3) ;
+padding:10px  ;
+align-self: self-end;
+position: absolute;
+    TOP: -4%;
+    left: 10%;
+    background-color: rgba(54, 54, 54, 0.24);
+}
+.line-market{
+  font-family: var(--quantico-font);
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+.c-logo{
+    width:200px;
+    height:50px;
+    border: 2px solid rgba(250, 208, 83, 1) ;
+  }
+ 
+   .shape-holder{
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+padding: 1px;
+background-color: rgba(241, 160, 18, 1);
+position: absolute;
+    TOP: -5%;
+   }
+  
+  .custom-shape {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:  #04050b;
+    position: relative;
+    padding: 0 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  text-align: center;
+    height: 60px;
+    width: 480px;
+    /* background-image: radial-gradient(37.22% 37.22% at 50% -14.35%, #FF8A00 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(255, 234, 90, 0.3), rgba(255, 234, 90, 0.3)); */
+  }
+  
+  .arrow {
+    width: 0px;
+    height: 20px;
+    background: gold;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  }
+  
+  .arrow.left {
+    transform: rotate(180deg);
+  
+
+  }
+  .arrows{
+    font-size: 30px;
+    color: rgba(218, 190, 33, 0.822);
+
+  } 
+
+  .arrows i{
+    color: linear-gradient(90deg, #FAD053 0%, rgba(250, 208, 83, 0) 82.76%);
+
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .c-notched {
+    position: absolute;
+    TOP: -4%;
+    right: 16%;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  span {
+    font-size:22px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .custom-shape img {
+    width: 35px;
+    height: 50px;
+}
+  .bottom{
+    bottom: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 5%;
+    right: 67%;
+  }
+
+
+ 

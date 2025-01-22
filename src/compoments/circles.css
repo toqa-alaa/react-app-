@@ -1,0 +1,61 @@
+.box{
+    position: relative;
+  }
+  .circles{
+    position: absolute;
+    bottom: 25%;
+    right:10%;
+    width: 200px;
+    height: 200px;
+ 
+    
+  }
+  .circle{
+    justify-content: center;
+    align-items: center;
+  }
+
+ .first-circle {
+ position: absolute;
+ top: 260%;
+ left: 112%;
+    transform: translateX(-50%);
+    position: absolute;
+
+  }
+  
+  .circle:nth-child(2) {
+    top: 232%;
+    left: 85%;
+    
+    transform: translateX(-50%);
+    position: absolute;
+
+  }
+  
+  .circle:nth-child(3) {
+    left: 43%;
+    top: 276%;
+    transform: translateY(-50%);
+    position: absolute;
+
+  }
+  
+  .circle:nth-child(4) {
+    right: 0;
+    top: 300%;
+    transform: translateY(-50%);
+    position: absolute;
+
+  }
+
+
+  @media (min-width: 1480px) {
+    .circles {
+    right: 20%;
+  }
+.union-all{
+  left: 20%;
+}
+
+}

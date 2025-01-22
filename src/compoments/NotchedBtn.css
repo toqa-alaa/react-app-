@@ -1,0 +1,44 @@
+.first{
+  clip-path: polygon(50% 0%, 107% -3%, 103% 58%, 86% 114%, -2% 106%, -1% 38%, 14% -12%);
+  /* clip-path: polygon(105% -4%, 103% 66%, 81% 103%, 2% 108%, -23% 65%, 16% -1%);     */
+ 
+ /* background-color: rgba(255, 211, 99, 1); 
+
+
+ *//* */
+ padding: px ;
+ }
+
+.notched{
+    width: fit-content;
+    overflow: hidden;
+ background-color:rgba(255, 211, 99, 1);
+ padding: 4px ;
+    clip-path: polygon(50% 0%, 107% -3%, 103% 58%, 86% 114%, -2% 106%, -1% 38%, 14% -12%);
+;
+    ;      
+  /*/*/
+  
+   }
+.notchedSec{
+   clip-path: polygon(50% 0%, 107% -3%, 103% 58%, 86% 114%, -2% 106%, -1% 38%, 14% -12%);
+    background-color: #00021d;
+    padding: 3px 3px;
+    
+}
+  .NotchedBtn {
+   padding :0 10px;
+ 
+    overflow: hidden;
+    position: relative;
+     width: fit-content;
+      overflow: hidden;
+      text-decoration: none;
+      text-align: center;
+     clip-path: polygon(50% 0%, 107% -3%, 103% 58%, 86% 114%, -2% 106%, -1% 38%, 14% -12%);      
+       /* border: 2px solid rgb(13, 3, 49);
+             padding: 7px 15px;
+*/
+  }
+
+  
