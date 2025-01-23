@@ -1,9 +1,9 @@
 import PageNav from "../compoments/PageNav";
 import PageFooter from "../compoments/PageFooter";
 import Text from "../compoments/Text";
-import'./HomePage.css'
-import MainImg from "../compoments/MainImg";
 
+import MainImg from "../compoments/MainImg";
+import'./HomePage.css'
 export default function HomePage() {
     return (
         <>

@@ -1,16 +1,26 @@
 import PageFooter from "../compoments/PageFooter"
 import PageNav from "../compoments/PageNav"
-import Console from "../pages/Console"
-
+import Text from "../compoments/Text";
+import MainImg from "../compoments/MainImg";
 function Read() {
     return (
+      
+          <>
         <div className="background">
-            
+        <div className="homepage">
             <PageNav/>
-     <Console/>
-            <PageFooter/>
+           
+                  <Text/>
+           <MainImg/>
+ 
+        
+            
+        </div>   
+         <PageFooter/>
+         </div>
+         </>
        
-        </div>
+        
     )
 }
 
