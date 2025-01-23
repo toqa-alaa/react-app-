@@ -22,17 +22,22 @@
   background-origin: border-box;
   background-clip: padding-box, border-box;
   background-size:127%;
+  position: relative;
+}
+.l-group .bigbox{
+  background-image: linear-gradient(#00011c, #00011c),
+  linear-gradient(to left, transparent 40%, gold);
 }
 
 .square{
   border: 1px solid rgba(241, 160, 18, 1); 
-  max-width: 510px;
+  max-width: 440px;
   border-radius: 8px;
   padding: 20px;
   position: relative;
   background-color: rgba(255, 255, 255, 0.05);
 }
-.all::after{
+/* /* .all::after{
   height: 730px;
   width: 2px;
   content: "";
@@ -43,8 +48,8 @@
   transform: translateX(-50%);
 
 
-}
-.l-group .square::after {
+} */
+/* .l-group .square::after {
   content: "";
   width: 24px;
   height: 24PX;
@@ -54,8 +59,8 @@ position: absolute;
 top: 50%;
 right: 100%;
 transform: translateX(-50%);
-}
-.l-group .square::before {
+} */
+/* .l-group .square::before {
   content: "";
   width: 1px;
   height: 75px;
@@ -65,8 +70,8 @@ top: 38%;
 right: 107%;
 transform: translate(50%);
 transform: rotate(90deg);
-}
-.r-group .square::after {
+} */
+/* .r-group .square::after {
   content: "";
   width: 24px;
   height: 24PX;
@@ -76,9 +81,9 @@ position: absolute;
 top: 50%;
 left: 109%;
 transform: translate(50%);
-}
+} */
 
-.r-group .square::before {
+/* .r-group .square::before {
   content: "";
   width: 1px;
   height: 75px;
@@ -88,7 +93,7 @@ top: 38%;
 left: 107%;
 transform: translate(50%);
 transform: rotate(90deg);
-}
+} */
 .square h6{
   text-align: center;
   font-size: 20px;
@@ -99,7 +104,88 @@ transform: rotate(90deg);
 .square p{
   font-size: 16px;
 }
-@media screen and (min-width: 1480px) {
+
+.yellow-line{
+  width: 2px;
+  height: 730px;
+  background-color: var(--primary-color);
+  margin-top: 13%;
+}
+.bigbox span{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 50%;
+  left: -20%;
+  transform: translate(-50%, -50%);
+}
+.r-group .bigbox span{
+  left: 120.5%;
+}
+.l-group .linedashed{
+  left: -20%;
+}
+
+/* .bigbox span::after{
+  content: "";
+  width: 1px;
+  height: 75px;
+  background-color: var(--tertiary-color);
+  position: absolute;
+  top: 38%;
+  left: 107%;
+  transform: translate(50%);
+  transform: rotate(90deg);
+  text-decoration: dashed;
+column-rule: 2px dashed red;} */
+
+
+.r-group{
+  position: relative;
+}
+.l-group{
+  position: relative;
+}
+.linedashed{
+  width:16%;
+  margin: 5px 0;
+  height: 1px;
+  background: repeating-linear-gradient(to right, var(--primary-color), var(--primary-color) 2px, var(--primary-color) 0, var(--primary-color) 5px, transparent 5px, transparent 7px) center;/*5px red then 2px transparent -> repeat this!*/
+
+  position: absolute;
+  top: 48%;
+  left: -18%;
+}
+.linedashed i{
+  bottom: -7px;
+  position: absolute;
+  left: 100%;
+color:var(--primary-color) ;
+
+}
+
+
+
+ .r-group .linedashed{
+  left: 105%;
+}
+
+.r-group .linedashed i{
+  left:-5% !important;
+ 
+}
+.r-group .bigbox .linedashed{
+  left: 105%  ;
+} 
+
+@media only screen and (min-width: 1480px) and (max-width: 3000px) {
+
+  .lines-wrapper-top{
+    position: relative;
+    top: 0;
+  }
   .r-group{
     position: relative;   
     left: 8%;
@@ -109,10 +195,26 @@ transform: rotate(90deg);
     position: relative;
     right: 8%;
   }
+  .lines-wrapper-top{
+  position: relative !important;
+        top: 0;
+    }
+.square{
+  max-width: 510px;
 }
 .yellow-line{
-  width: 2px;
-  height: 730px;
-  background-color: var(--tertiary-color);
-  margin-top: 13%;
+  margin-top: 7%;
 }
+ .bigbox span{
+  left: -29%;
+ }
+
+ .r-group .bigbox span{
+  left: 129.5%;
+}
+.linedashed{
+  width: 21%;
+}
+.l-group .linedashed{
+  left: -27%;}
+  }

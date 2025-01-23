@@ -4,6 +4,10 @@ function Months() {
         <div className="all">
             <div className="r-group">
             <div className="bigbox">
+            <span></span>
+            <div className="linedashed">
+                <i className="fa-solid fa-caret-left"></i></div> 
+
                 <div className="square ">
                     <h6>january</h6>
                     <h3>breif</h3>
@@ -14,6 +18,9 @@ function Months() {
                 </p>
                 </div></div>
                 <div className="bigbox">
+                <span></span>
+                <div className="linedashed">
+                <i className="fa-solid fa-caret-left"></i></div>
                 <div className="square">
                     <h6>march</h6>
                     <h3>discover</h3>
@@ -25,6 +32,9 @@ function Months() {
                 </div></div>
 
                 <div className="bigbox">
+                <span></span>
+ <div className="linedashed">
+                <i className="fa-solid fa-caret-left"></i></div>
                 <div className="square">
                     <h6>may</h6>
                     <h3>testing</h3>
@@ -39,6 +49,9 @@ function Months() {
             <div className="l-group">
                 
             <div className="bigbox">
+                <span></span>
+                <div className="linedashed">
+                <i className="fa-solid fa-caret-right"></i></div> 
             <div className="square">
                     <h6>Fabruary</h6>
                     <h3>Research</h3>
@@ -49,6 +62,9 @@ function Months() {
                 </p>
                 </div></div>
                 <div className="bigbox">
+                <span></span>
+                <div className="linedashed">
+                <i className="fa-solid fa-caret-right"></i></div> 
                 <div className="square">
                     <h6>april</h6>
                     <h3>design</h3>
@@ -60,6 +76,14 @@ function Months() {
                 </div></div>
 
                 <div className="bigbox">
+                <span>
+
+               
+                </span>
+ <div className="linedashed">
+     <i className="fa-solid fa-caret-right"></i></div> 
+
+
                 <div className="square">
                     <h6>june</h6>
                     <h3>Launch & Feedback</h3>
